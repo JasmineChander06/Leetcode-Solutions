@@ -17,7 +17,6 @@ public:
                 }
             }
             else{
-                if(customerbill==20){
                     if(fivedolla>0 && tendolla>0){
                         fivedolla--;
                         tendolla--;
@@ -29,8 +28,8 @@ public:
                         return false;
                     }
                 }
-            }
         }
+
         return true;
         
     }
